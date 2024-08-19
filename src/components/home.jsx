@@ -28,7 +28,7 @@ const home = () => {
 
             {/* second component */}
             <div className='flex justify-center items-center px-48 py-32'>
-                <div className="flex justify-between items-center space-x-10 px-10 py-12 border shadow-lg rounded-tr-[100px] rounded-bl-[100px]">
+                <div className="flex justify-between items-center space-x-10 px-10 py-12 border shadow-2xl shadow-blue-200 rounded-tr-[100px] rounded-bl-[100px]">
                     <div className='flex flex-col justify-center items-center space-y-1 text-center border-r-2 border-gray-600 px-12'>
                         <Image src="/image/tech.png" alt='Sign Up' width='50' height='50'/>
                         <h3 className='font-bold text-gray-600'>
@@ -65,24 +65,33 @@ const home = () => {
             </div>
 
             {/* third component */}
-            <div>
-                <div className='flex justify-between items-center px-44 py-7'>
+            <div className="py-10">
+                <div className='flex justify-center space-x-32 items-center px-44 py-7'>
                     <div>
                         <Image src="/image/thrid.png" alt="phone" width="300" height="300"/>
                     </div>
 
-                    <div className='flex flex-col items-start space-y-10'>
-                        <h3>
+                    <div className='flex flex-col items-start space-y-6'>
+                        <h3 className="font-extrabold text-[28px] font-sans">
                             Let your money do your work
                         </h3>
 
-                        <p>
+                        <p className="w-[380px] text-gray-800 text-md">
                             Trust Bundle leveraged tokens to save the day even when there is a market dip
                         </p>
 
-                        <a href="#">
-                            Beat the dip
+                        <a href="#" className="border px-8 py-2 bg-blue-800 text-white text-sm rounded-md">
+                            Beat the Dip
                         </a>
+                    </div>
+                </div>
+            </div>
+
+            {/* fourth component */}
+            <div>
+                <div>
+                    <div>
+                        
                     </div>
                 </div>
             </div>
