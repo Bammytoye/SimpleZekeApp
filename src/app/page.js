@@ -22,7 +22,7 @@ export default function Home() {
 
           <div className="flex space-x-10">
             <a href="#" className='hover:text-red-300 hover:border-l-2 border-r-2 px-3 rounded-full border-white'>Sign Up</a>
-            <a href="#" className='hover:text-red-300 text-pink-600 border bg-white rounded-full px-5 pt-1'>Login</a>
+            <a href="#" className='hover:text-red-300 text-pink-600 border bg-white hover:bg-transparent rounded-full px-5 pt-1'>Login</a>
           </div>
         </div>
       </div>
