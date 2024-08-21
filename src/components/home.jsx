@@ -177,7 +177,8 @@ const home = () => {
                     </div>
                 </div>
             </div>
-
+    
+            {/* sixth component */}
             <div className="p-48">
                 <div className="flex flex-col space-y-3 justify-center items-center bg-slate-100 px-32 py-20 border shadow-2xl shadow-blue-200 rounded-tr-[100px] rounded-bl-[100px]">
                     <h3 className="text-3xl font-extrabold font-sans text-blue-800">
@@ -219,18 +220,122 @@ const home = () => {
             </div>
 
             {/* footer */}
-            <div>
+            <div className="px-32 py-28 cursor-pointer shadow-xl bg-gradient-to-r from-blue-200 via-purple-700 to-pink-800 shadow-gray-300">
+                <div className="flex justify-between items-start">
+                    <div className="space-y-10">
+                        <h3 className="uppercase text-white font-sans">
+                            Cashout
+                        </h3>
+
+                        <p className="w-[200px] font-bold text-white">
+                            Social Payment For Cash and Payment Transfer
+                        </p>
+
+                        <div className="flex space-x-2 items-center">
+                            <div className="flex items-center space-x-3 border px-5 py-2 text-sm hover:rounded-br-2xl rounded-bl-2xl rounded-tl-2xl rounded-tr-2xl border-white bg-transparent text-white cursor-pointer">
+                                <IoLogoGooglePlaystore className="text-2xl text-[#27837e]"/>
+
+                                <div>
+                                    <p>
+                                        Get it on
+                                    </p>
+                                    <span>
+                                        Google Play
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div className="flex items-center space-x-3 border px-5 py-2 text-sm hover:rounded-br-2xl rounded-bl-2xl rounded-tl-2xl rounded-tr-2xl border-white bg-transparent text-white cursor-pointer">
+                                <IoLogoApple className="text-2xl"/>
+
+                                <div>
+                                    <p>
+                                        Download on the 
+                                    </p>
+                                    <span>
+                                        App Store
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="space-y-10">
+                        <h3 className="uppercase text-gray-200 font-sans">
+                            Company
+                        </h3>
+
+                        <ul className="space-y-3 text-gray-200">
+                            <li>
+                                About Us
+                            </li>
+
+                            <li>
+                                Careers
+                            </li>
+
+                            <li>
+                                Contact
+                            </li>
+
+                            <li>
+                                Affiliate Program
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="space-y-10">
+                        <h3 className="uppercase text-gray-200 font-sans">
+                            Help
+                        </h3>
+
+                        <ul className="space-y-3 text-gray-200">
+                            <li>
+                                Blog
+                            </li>
+
+                            <li>
+                                FAQ
+                            </li>
+
+                            <li>
+                                Report a Bug
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="space-y-10">
+                        <h3 className="uppercase text-gray-200 font-sans">
+                            Product
+                        </h3>
+
+                        <ul className="space-y-3 text-gray-200">
+                            <li>
+                                Trade
+                            </li>
+
+                            <li>
+                                Vault
+                            </li>
+
+                            <li>
+                                Bundle Leveraged
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
                 <div>
+                    <p>
+                        ©Copyright Bammytoye 2024. All right reserved.
+                    </p>
+
+                    <p>
+                        Terms of Service | Privacy Policy 
+                    </p>
+
                     <div>
-
-                    </div>
-
-                    <div>
-
-                    </div>
-
-                    <div>
-
+                        
                     </div>
                 </div>
             </div>
