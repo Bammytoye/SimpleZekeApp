@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { TiStarOutline } from "react-icons/ti";
 import { IoLogoGooglePlaystore, IoLogoApple } from "react-icons/io5";
+import { FaFacebook, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 const home = () => {
     return (
@@ -220,7 +221,7 @@ const home = () => {
             </div>
 
             {/* footer */}
-            <div className="px-32 py-28 cursor-pointer shadow-xl bg-gradient-to-r from-blue-200 via-purple-700 to-pink-800 shadow-gray-300">
+            <div className="px-32 py-10 cursor-pointer shadow-xl bg-gradient-to-r from-blue-200 via-purple-700 to-pink-800 shadow-gray-300">
                 <div className="flex justify-between items-start">
                     <div className="space-y-10">
                         <h3 className="uppercase text-white font-sans">
@@ -325,7 +326,7 @@ const home = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className="flex justify-between items-center mt-5 text-[13px] text-white">
                     <p>
                         ©Copyright Bammytoye 2024. All right reserved.
                     </p>
@@ -334,8 +335,11 @@ const home = () => {
                         Terms of Service | Privacy Policy 
                     </p>
 
-                    <div>
-                        
+                    <div className="flex space-x-4">
+                        <FaFacebook  />
+                        <FaTwitter  />
+                        <FaLinkedinIn  />
+                        <FaInstagram  />
                     </div>
                 </div>
             </div>
