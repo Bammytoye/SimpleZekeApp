@@ -8,7 +8,7 @@ const home = () => {
     return (
         <div>
             {/* first component */}
-            <div className="pt-32 px-32 py-32 cursor-pointer h-[580px] shadow-xl bg-gradient-to-r from-blue-200 via-purple-700 to-pink-800 shadow-gray-300 rounded-br-[500px] rounded-tl-[300px]">
+            <div className="pt-32 px-32 py-32 cursor-pointer h-[580px] shadow-xl bg-gradient-to-r from-blue-200 via-purple-700 to-pink-800 shadow-gray-300 md:rounded-br-[500px] md:rounded-tl-[300px]">
                 <div className='flex flex-col justify-center items-center space-y-6 text-white'>
                     <h2 className='font-extrabold text-4xl'>
                         Discover the social side of Cashout

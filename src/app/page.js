@@ -39,8 +39,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={toggle ? "lg:hidden flex flex-col" : "hidden"}>
-          <div className="flex flex-col space-y-2">
+        <div className={toggle ? "lg:hidden h-[70vh] text-white flex flex-col" : "hidden"}>
+          <div className="flex flex-col items-center space-y-12 py-12">
             <select className="outline-none bg-transparent cursor-pointer hover:text-red-300">
               <option value="Company">Company</option>
               <option value="Company One">Company One</option>
@@ -51,7 +51,7 @@ export default function Home() {
             <h2 className='hover:text-red-300'>Blog</h2>
           </div>
           
-          <div className="flex space-x-10">
+          <div className="flex flex-col items-center space-y-12 mt-4">
             <a href="#" className='hover:text-red-300 hover:border-l-2 border-r-2 px-3 rounded-full border-white'>Sign Up</a>
             <a href="#" className='hover:text-red-300 text-pink-600 border bg-white hover:bg-transparent rounded-full px-5 pt-1'>Login</a>
           </div>
